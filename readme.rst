@@ -1,13 +1,9 @@
-###################
-Exemplo de uso do Template Blade no CodeIgniter
-###################
+# Exemplo de uso do Template Blade no CodeIgniter
 
 A Blade template engine é uma ferramenta muito útil na construção de aplicações web usando MVC, pois permite que as views fiquem bem legíveis e com bem pouco ou quase nenhum código PHP explícito no meio do HTML.
 
-*******************
-Exemplos
-*******************
-Tradicionalmente para imprimir ou exibir o valor de uma variável PHP, usamos: 
+## Exemplos
+Tradicionalmente para imprimir ou exibir o valor de uma variável *PHP*, usamos: 
 ::
 	<h1><?php echo $titulo ?> </h1>
 	<ul>
@@ -27,10 +23,8 @@ Com o Template Blade, usamos:
 
 Como demonstrado, o código HTML não fica carregado com códigos PHP.
 
-*******************
-Instalação
-*******************
 
+## Instalação
 Vamos utilizar nesse exemplo o Composer para fazer a instalação dos componentes e do próprio CodeIgniter:
 ::
 	composer create-project bcit-ci/codeigniter codeigniter_template_blade --prefer-dist
