@@ -13,9 +13,9 @@ Tradicionalmente para imprimir ou exibir o valor de uma variável *PHP*, usamos:
 ::
 	<h1><?php echo $titulo ?> </h1>
 	<ul>
-	 <?php foreach($clientes as $c): ?>
-	  <li><?= $c->nome ?></li>
-	 <?php endforeach; ?>
+	<?php foreach($clientes as $c): ?>
+	<li><?= $c->nome ?></li>
+	<?php endforeach; ?>
 	</ul>
 
 
@@ -24,9 +24,9 @@ Com o Template Blade, usamos:
 ::
 	<h1>{{ $titulo }}</h1>
 	<ul>
-	 @foreach ($clientes as $c)
-	  <li>{{ $c->nome }}</li>
-	 @ endforeach
+	@foreach ($clientes as $c)
+	<li>{{ $c->nome }}</li>
+	@ endforeach
 	</ul>
 
 
