@@ -10,32 +10,32 @@ Exemplos
 --------
 Tradicionalmente para imprimir ou exibir o valor de uma variável *PHP*, usamos: 
 
-<h1><?php echo $titulo ?> </h1>
+	<h1><?php echo $titulo ?> </h1>
 
-<ul>
+	<ul>
 
-<?php foreach($clientes as $c): ?>
+	<?php foreach($clientes as $c): ?>
 
-<li><?= $c->nome ?></li>
+	<li><?= $c->nome ?></li>
 
-<?php endforeach; ?>
+	<?php endforeach; ?>
 
-</ul>
+	</ul>
 
 
 Com o Template Blade, usamos:
 
-<h1>{{ $titulo }}</h1>
+	<h1>{{ $titulo }}</h1>
 
-<ul>
+	<ul>
 
-@foreach ($clientes as $c)
+	@foreach ($clientes as $c)
 
-<li>{{ $c->nome }}</li>
+	<li>{{ $c->nome }}</li>
 
-@ endforeach
+	@ endforeach
 
-</ul>
+	</ul>
 
 
 Como demonstrado, o código HTML não fica carregado com códigos PHP.
