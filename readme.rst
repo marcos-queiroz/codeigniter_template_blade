@@ -1,33 +1,34 @@
-#Exemplo de uso do Template Blade no CodeIgniter
-
+Exemplo de uso do Template Blade no CodeIgniter
+===============================================
 
 A Blade template engine é uma ferramenta muito útil na construção de aplicações web usando MVC, pois permite que as views fiquem bem legíveis e com bem pouco ou quase nenhum código PHP explícito no meio do HTML.
 
 [Documentação do Blade](https://laravel.com/docs/5.3/blade)
 
 
-##Exemplos
-
+Exemplos
+--------
 Tradicionalmente para imprimir ou exibir o valor de uma variável *PHP*, usamos: 
 
-```php
+::
 <h1><?php echo $titulo ?> </h1>
 <ul>
 <?php foreach($clientes as $c): ?>
 <li><?= $c->nome ?></li>
 <?php endforeach; ?>
 </ul>
-```
 
-##Com o Template Blade, usamos:
-```php
+
+Com o Template Blade, usamos:
+
+::
 <h1>{{ $titulo }}</h1>
 <ul>
 @foreach ($clientes as $c)
 <li>{{ $c->nome }}</li>
 @ endforeach
 </ul>
-```
+
 
 Como demonstrado, o código HTML não fica carregado com códigos PHP.
 
