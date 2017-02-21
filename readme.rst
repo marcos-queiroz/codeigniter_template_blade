@@ -8,6 +8,7 @@ A Blade template engine é uma ferramenta muito útil na construção de aplica�
 Exemplos
 *******************
 Tradicionalmente para imprimir ou exibir o valor de uma variável PHP, usamos: 
+
 ```shell
 	<h1><?php echo $titulo ?> </h1>
 	<ul>
@@ -18,6 +19,7 @@ Tradicionalmente para imprimir ou exibir o valor de uma variável PHP, usamos:
 ```
 
 Com o Template Blade, usamos:
+
 ```shell
 	<h1>{{ $titulo }}</h1>
 	<ul>
@@ -34,15 +36,21 @@ Instalação
 *******************
 
 Vamos utilizar nesse exemplo o Composer para fazer a instalação dos componentes e do próprio CodeIgniter:
+
 ```shell
 	composer create-project bcit-ci/codeigniter codeigniter_template_blade --prefer-dist
 ```
+
 Após concluir a criação do projeto, acesse o diretório do projeto:
+
 ```shell		
 	cd codeigniter_template_blade
 ```
+
 No diretório do projeto do projeto execute o comando para adicionar o pacote Blade Template Engine: 
+
 ```shell		
 	composer require xiaoler/blade
 ```
+
 Pronto, projeto criado e o pacote do Blade adicionado
