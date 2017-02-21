@@ -9,7 +9,7 @@ Exemplos
 *******************
 Tradicionalmente para imprimir ou exibir o valor de uma variável PHP, usamos: 
 
-```shell
+```php
 	<h1><?php echo $titulo ?> </h1>
 	<ul>
 		<?php foreach($clientes as $c): ?>
@@ -20,7 +20,7 @@ Tradicionalmente para imprimir ou exibir o valor de uma variável PHP, usamos:
 
 Com o Template Blade, usamos:
 
-```shell
+```php
 	<h1>{{ $titulo }}</h1>
 	<ul>
 		@foreach ($clientes as $c)
