@@ -9,7 +9,7 @@ A Blade template engine é uma ferramenta muito útil na construção de aplica�
 Exemplos
 --------
 Tradicionalmente para imprimir ou exibir o valor de uma variável *PHP*, usamos: 
-
+::
 	<h1><?php echo $titulo ?> </h1>
 
 	<ul>
@@ -24,7 +24,7 @@ Tradicionalmente para imprimir ou exibir o valor de uma variável *PHP*, usamos:
 
 
 Com o Template Blade, usamos:
-
+::
 	<h1>{{ $titulo }}</h1>
 
 	<ul>
