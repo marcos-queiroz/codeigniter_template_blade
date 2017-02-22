@@ -74,3 +74,5 @@ Para:
 
 
 Adicione a librarie Blade.php no **diretório application/librares/** 
+
+**Obs.:** Não esqueça de criar a pasta **views** em **application/cache/***.
