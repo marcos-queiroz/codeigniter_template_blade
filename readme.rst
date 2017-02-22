@@ -74,7 +74,12 @@ Para:
 	$config['composer_autoload'] = './vendor/autoload.php';
 
 
-Adicione a librarie Blade.php no **diretório application/librares/** 
+Adicione a librarie Blade.php no diretório **application/librares/** 
 
+
+Carregue a nova librare no arquivo **autoload.php**, que se encontra no diretório **application/config/**
+::
+
+	$autoload['libraries'] = array('blade');
 
 **Obs.:** Não esqueça de criar a pasta **views** em **application/cache/**.
