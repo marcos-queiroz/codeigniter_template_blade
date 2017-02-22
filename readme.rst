@@ -59,3 +59,18 @@ No diretório do projeto do projeto execute o comando para adicionar o pacote Bl
 Pronto, projeto criado e o pacote do Blade adicionado
 
 
+Configuração
+------------
+
+Com a utilização do Composer, acesse o diretório **application/config/** e edite o arquivo **config.php**, para que os pacotes sejam carregados corretamente.  Altere o seguinte código: 
+::
+
+	$config['composer_autoload'] = FALSE;
+
+Para:
+
+::
+	$config['composer_autoload'] = './vendor/autoload.php';
+
+
+Adicione a librarie Blade.php no **diretório application/librares/** 
