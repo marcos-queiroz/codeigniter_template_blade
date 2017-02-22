@@ -83,3 +83,35 @@ Carregue a nova librare no arquivo **autoload.php**, que se encontra no diretór
 	$autoload['libraries'] = array('blade');
 
 **Obs.:** Não esqueça de criar a pasta **views** em **application/cache/**.
+
+Uso
+===
+
+Controller
+----------
+
+Para fazer uso da Blade Template Engine, substitua o uso de:
+::
+
+	$this->load->view('index');
+
+Utilize:
+::	
+	
+	$this->blade->view('index');
+	
+	
+View
+----
+
+Na view que a mudança é mais radical, substitua as *tags PHP*
+::	
+
+	<?php echo $variavel ?>
+	
+por: 
+::
+
+	{{ $variavel }}
+	
+Para mais exemplos, consulte a documentação: https://laravel.com/docs/5.3/blade
