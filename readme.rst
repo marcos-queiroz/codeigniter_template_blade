@@ -70,9 +70,11 @@ Com a utilização do Composer, acesse o diretório **application/config/** e ed
 Para:
 
 ::
+	
 	$config['composer_autoload'] = './vendor/autoload.php';
 
 
 Adicione a librarie Blade.php no **diretório application/librares/** 
+
 
 **Obs.:** Não esqueça de criar a pasta **views** em **application/cache/***.
