@@ -1,10 +1,12 @@
-Exemplo de uso do Template Blade no CodeIgniter
+Exemplo de uso do Template Blade no CodeIgniter e o Admin LTE
 ===============================================
 
 A Blade template engine é uma ferramenta muito útil na construção de aplicações web usando MVC, pois permite que as views fiquem bem legíveis e com bem pouco ou quase nenhum código PHP explícito no meio do HTML.
 
 [Documentação do Blade](https://laravel.com/docs/5.3/blade)
 
+Já o AdminLTE é uma template Front End basedo no renomado Bootstrap, para ser usado paineis ou áreas administrativas, possui muitos componentes.
+[Documentação e Exemplos](https://almsaeedstudio.com/themes/AdminLTE/index2.html)
 
 Exemplos
 --------
